@@ -29,7 +29,7 @@ I added Rina's <link rel="" to the top. -->
 
 body{
     /*Nina: Made our background look like space! Thought it would give our .row some more flavor. Feel free to remove. :) */
-    background-image: url(https://cutewallpaper.org/21/sakura-backgrounds/112-Sakura-HD-Wallpapers-Background-Images-Wallpaper-Abyss.jpg);
+    background-image: url(https://image.freepik.com/free-photo/pink-roses-white-background_23-2147889652.jpg);
 }
 h1 {color:#cc0099} 
 
@@ -48,10 +48,12 @@ h2.intro:hover {
 /*Nina: Added this to give our rows some ~flavor!~ Feel free to edit. */
 .row {
     margin: 10px;
-    background:lightpink;
+    background-color:white;
     border-radius: 10px;
     padding: 10px;
-    color:pink;}
+    color:pink;
+
+}
 
 /* Make images center. */
 .center {
@@ -70,7 +72,7 @@ h2.intro:hover {
 <body>
 <!--Nina: Added a navigation bar! :) -->
     <!--Took this class from Mark's sample page, because I liked it!-->
-<nav class="pl-md-5 navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+<nav class="pl-md-5 navbar navbar-expand-md bg-white navbar-light fixed-top">
     <!-- Nina: Bootstrap - Little Title Heading! Wow!!! -->
     <a class="navbar-brand" href="https://rinaru13.github.io/rinasproject.github.io/">Rina's Art Portfolio</a>
 
@@ -78,16 +80,19 @@ h2.intro:hover {
     <ul class="navbar-nav">
       <li class="nav-item">
         <!--Nina: added a link to the navigation bar!-->
-        <a class="nav-link" href="https://www.linkedin.com/in/missrinayu">LinkedIn</a>
+        <a class="nav-link" href="sketches.html">Sketches</a>
       </li>
       <!--Nina: Empty Link -- Feel free to add
       Trevor: added a link to our nav bar(: ) -->
       <li class="nav-item">
-        <a class="nav-link" href="https://www.instagram.com/missyeonyu/?hl=en">Insta</a>
+        <a class="nav-link" href="paintings.html">Paintings</a>
       </li>
         <!--Nina: Empty Link -- Feel free to add -->
       <li class="nav-item">
-        <a class="nav-link" href="#">Facebook</a>
+        <a class="nav-link" href="poetry.html">Poems</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aboutme.html">About Me</a>
       </li>
     </ul>
   
@@ -100,8 +105,8 @@ h2.intro:hover {
 <!--(this isn't in the external stylesheet)-->
 <style>
   #rinaHeader {
-      background-color:lightpink;
-      color:palevioletred;
+      background-color:white;
+      color:pink;
       padding: 40px;
       text-align:center;
   }
@@ -109,6 +114,7 @@ h2.intro:hover {
       background-color: white;
       color:purple;
       padding: 10px;
+      text-align:center;
   }
 </style>
   
@@ -120,16 +126,6 @@ h2.intro:hover {
 <h1 id="rinaHeader">Hello! 안녕! Bonjour! Hola!</h1>
   <!--INSTR: YES! Classes for categories of elements that you want to lump together and style. IDs for unique elements that you need to refer to or treat special. Later, in javascript, you'll refer to ID to tell a function which element to change.-->
   
-
-
-<!--Bootstrap: Boxes around everything so it doesn't fade into the background-->
-<div class="row">
-  <!--Bootstrap Practice: Buttons)-->
-  <li><a href="sketches.html" class="btn btn-dark" role="button">My Sketches</a></li>
-  <li><a href="paintings.html" class="btn btn-dark" role="button">My Paintings</a></li>
-  <li><a href="poetry.html" class="btn btn-dark" role="button">My Poems</a></li>
-  <li><a href="aboutme.html" class="btn btn-dark" role="button">About Me</a></li>
-</div>
 
 <div id="demo" class="carousel slide" data-ride="carousel">
   <!--Bootstrap: Added an image carousel! W3Schools carried me on this one. But, I learned a lot!-->
